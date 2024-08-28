@@ -13,6 +13,7 @@ public class CicdDemoApplication {
 	public static final Logger logger = LoggerFactory.getLogger(CicdDemoApplication.class);
 
 	public static void main(String[] args) {
+		logger.info("Cicd is firing");
 		SpringApplication.run(CicdDemoApplication.class, args);
 	}
 
