@@ -12,7 +12,7 @@ public class TestController {
         return "Welcome to the CI-CD world";
     }
 
-    @GetMapping
+    @GetMapping("ld")
     @ResponseStatus(HttpStatus.OK)
     public String sayLoud() {
         return "Say loudly";
