@@ -11,4 +11,10 @@ public class TestController {
     public String sayHi() {
         return "Welcome to the CI-CD world";
     }
+
+    @GetMapping
+    @ResponseStatus(HttpStatus.OK)
+    public String sayLoud() {
+        return "Say loudly";
+    }
 }
